@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    background-color: #D5D4D4;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin: 350px 40;
+    background-color: white;
+    padding: 60px 65px;
+    border-radius: 5px;
+}
+
+.form-new {
+    width: 70%;
+}
+
+form .form-new {
+    margin-bottom: 40px;
+}
+
+form .form-new label {
+    margin-top: 5px;
+    font-size: 16px;
+    color: darkslateblue;
+}
+
+form .form-new input {
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    padding: 7px;
+    font-size: 16px;
+    color: #7159c1;
+    border-radius: 2px;
+    border: 1px solid #ccddef;
+    outline-color: #7159c1;
+}
+
+.input-form-rad {
+    margin: 8px;
+    padding: 7px;
+    font-size: 16px;
+    color: #7159c1;
+    border-radius: 2px;
+    border: 1px solid #ccddef;
+    outline-color: #7159c1;
+}
+
+.input-form-ch {
+    display: block;
+    margin: 15px;
+    padding: 7px;
+    font-size: 16px;
+    color: #7159c1;
+    border-radius: 2px;
+    border: 1px solid #ccddef;
+    outline-color: #7159c1;
+}
+
+form .login-button:hover {
+    background-color: #2b77b9;
+}
+
+form .login-button:active {
+    background-color: #135792;
+}
+
+form .singup-button:hover {
+    background-color: #70DB93;
+    ;
+}
+
+form .singup-button:active {
+    background-color: #70DB93;
+    ;
+}
+
+form .submit-button {
+    display: inline-block;
+    border: none;
+    background-color: rgb(31, 224, 89);
+    color: white;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 9px;
+    padding-right: 110px;
+    padding-left: 100px;
+}
+
+.submit-button-cad:hover {
+    background-color: #2b77b9;
+}
+
+.submit-button-cad:active {
+    background-color: #135792;
+}
+
+.input-form-radio {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.select-diabete {
+    display: inline-block;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.submit-button-cad {
+    cursor: pointer;
+    grid-column: 1/5;
+    border: none;
+    background-color: #428bca;
+    color: white;
+    width: 100%;
+    border-radius: 25px;
+    padding: 9px;
+    padding-right: 110px;
+    padding-left: 100px;
+}
+
+.login-button {
+    cursor: pointer;
+    grid-column: 3/5;
+    border: none;
+    background-color: #428bca;
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.singup-button {
+    grid-column: 1/3;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    background-color: #70DB93;
+    color: white;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
